@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador Alura</title>
+</head>
+
+<body>
+    <div class="cuerpo">
+    <header>
+        <img class="logo" src="Image/Frame%206.png" alt="logo de alura">
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                <p class="informacion "> <img src="Image/simbolo.png" alt="Simbolo de adventencia">Solo letras minúsculas y sin acento</p>
+                </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10" placeholder="Ningun mensaje fue encontrado"></textarea>
+            <div>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <a title="Perfil Github" href="https://github.com/ayhuerfiam24">
+            <img class="logo-Git" src="Image/logoGit.png"></a>
+            <p class="copyright"> &#169 2023</p>
+
+        </footer>
+    </div>
+    <script src="Logica-Encriptador.js"></script>
+</body>
+</html>
